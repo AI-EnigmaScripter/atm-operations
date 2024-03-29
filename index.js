@@ -39,7 +39,7 @@ if (pinAnswer.pin === myPin) {
     }
     else if (operationAns.operation === "Check Balance") {
         if (myBalance > 0) {
-            console.log(chalk.black("Your balance is: " + myBalance));
+            console.log(chalk.YellowBright("Your balance is: " + myBalance));
         }
         else {
             console.log(chalk.red("You have no balance in your account."));
