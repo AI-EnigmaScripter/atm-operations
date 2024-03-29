@@ -24,7 +24,7 @@ if (pinAnswer.pin === myPin) {
             name:"operation",
             message:chalk.blue("Select an option"),
             type:"list",
-            choices: [chalk.yellow("Withdraw", "Check Balance", "Transfer", "Bill Payment")]
+            choices: ["Withdraw", "Check Balance", "Transfer", "Bill Payment"]
         }
     ]
     );
