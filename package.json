@@ -3,7 +3,7 @@
     "inquirer": "^9.2.16"
   },
   "name": "fgh23-atm",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "atm machine",
   "main": "index.js",
   "type": "module",
